@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alafia Park</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+
+
+  <div class="hero-wrapper">
+
+<nav>
+  <div class="logo">
+    <img src="logo.png" alt="Park Logo">
+  </div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <ul id="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#">Explore the Park</a></li>
+    <li><a href="#">Activities</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Wellness and Comfort</a></li>
+    <li><a href="#">Bookings</a></li>
+    <li><a href="#">Testimonials</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</nav>
+
+<div class="hero-main">
+<div class="hero">
+  <h1>Welcome to Alafia Park</h1>
+  <p>A place where comfort, relaxation and peace meet nature...</p>
+  <a href="#contact"><button>Explore Nature &rarr;</button></a>
+</div>
+</div>
+
+</div>
+
+<!-- ABOUT US -->
+<section id="about">
+  <h2><small>About</small> Us </h2>
+  <div class="about">
+    <div class="about-logo"><img src="logo.png"></div>
+    <div class="about-text">
+      <p>Alafia Park has been in operation for the past 2 decades. 
+        Over the period, we have received quite a number of visitors 
+        who want to relax, destress, catch some breeze and escape from the world. 
+        Visitors' favourite spot is the riverside where they sit under the beautiful 
+        mango tree with their kids, a loved one or family to have some amazing,quality and beautiful time together. 
+        What are you wating for? Contact us to book!</p>
+        <a href="#contact"><button>Explore Nature &rarr;</button></a>
+    </div>
+     <div class="about-images">
+          <img src="hero3.jpg">
+          <img src="hero4.jpg">
+        </div>
+  </div>
+  </section>
+
+
+
+  
+<section id=contact>
+  <div class="contact-form">
+    <div class="contact-details">
+      <h1>Contact <small>Details</small></h1>
+      <div class="textboxes">
+      <input type="text" placeholder="First name and last name" required><br>
+      <input type="text" placeholder="area code - phone number" required><br>
+      <input type="text" placeholder="apt,area,address" required>
+      <input type="text" placeholder="dd/mm/yyyy" required>
+      <input type="text" placeholder="city, town" required>
+      </div>
+      <button>Submit</button>
+    </div>
+  </div>
+  </section>
+
+  <script>
+function toggleMenu() {
+  document.getElementById("nav-links").classList.toggle("active");
+}
+</script>
+</body>
+</html>
